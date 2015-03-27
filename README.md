@@ -15,7 +15,7 @@ spring-annotation-based-autowiring: TBD<br/>
 spring-autowiring-constructor: TBD<br/>
 spring-constructor-injection: TBD<br/>
 spring-execution-time-logging: TBD<br/>
+spring-xml-based-autowiring: TBD<br/>
+spring-sample-webapp: Web application that integrates Spring by loading it through ContextLoaderListener<br/>
 
-
-spring-xml-based-autowiring:
-spring-sample-webapp: Web application that integrates Spring by loading it through ContextLoaderListener
+more to come on cxf, hibernate, jdbc, jpa, jsf, primefaces
