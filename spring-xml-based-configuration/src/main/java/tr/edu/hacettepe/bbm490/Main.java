@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
 
 	public static void main(String... args) {
-		ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("/workshop-beans.xml");
+		ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("/applicationContext.xml");
 		AccountService accountService = applicationContext.getBean("accountService", AccountService.class);
 
 		System.out.println("Before money transfer");
