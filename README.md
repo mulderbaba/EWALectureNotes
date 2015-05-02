@@ -18,5 +18,8 @@ List of applications:
 - spring-xml-based-autowiring: Bean autowiring with XML configuration<br/>
 - spring-xml-based-configuration: XML based config of Spring<br/>
 - ws-standalone: Standalone web service exposing, no web container exists<br/>
+- jdbc-simple: Simple JDBC implementation using Oracle<br/>
+- spring-jdbc-simple: JDBC implementation with Spring<br/>
+- spring-jdbc-transaction: Spring's transaction mechanism with JDBC<br/>
 
 more to come on hibernate, jdbc, jpa, jsf, primefaces
