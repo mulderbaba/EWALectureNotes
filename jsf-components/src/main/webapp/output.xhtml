@@ -1,0 +1,20 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:f="http://xmlns.jcp.org/jsf/core"
+	  xmlns:h="http://xmlns.jcp.org/jsf/html">
+<head>
+<title>JSF Examples</title>
+</head>
+<body>
+	<h:outputText id="lbl_out" value="#{myOutputBean.value}" />
+	<br />
+	<h:outputLink id="lnk_out" value="http://www.google.com">
+		<h:outputText id="lbl_lnk_out" value="Go for Google" />
+	</h:outputLink>
+	<br />
+	<h:outputFormat id="out_format"
+		value="parameter 1 : {0}, parameter 2 : {1}">
+		<f:param value="Hacettepe University" />
+		<f:param value="BBM490" />
+	</h:outputFormat>
+</body>
+</html>

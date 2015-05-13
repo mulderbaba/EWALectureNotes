@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<title>JSF Examples</title>
+</h:head>
+<h:body>
+	<h:form>
+		Input a value between 5 and 100.
+		<h:panelGrid columns="3">
+			<h:outputText value="Value" />
+			<h:inputText id="txt_value" value="#{myValidatorBean2.value}">
+				<f:validateLongRange minimum="5" maximum="100" />
+			</h:inputText>
+			<h:message for="txt_value" />
+		</h:panelGrid>
+		<h:commandButton id="btn_action" value="Submit" />
+		<br />
+		<h:outputText value="#{myValidatorBean2.value}" />
+ 		</h:form>
+</h:body>
+</html>
+
+

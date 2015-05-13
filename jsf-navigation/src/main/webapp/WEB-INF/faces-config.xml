@@ -1,0 +1,29 @@
+<faces-config version="2.2"
+              xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+              http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+
+    <navigation-rule>
+        <from-view-id>/first.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>go</from-outcome>
+            <to-view-id>/second.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>/second.xhtml</from-view-id>
+        <navigation-case>
+            <from-action>#{secondPage.navigate}</from-action>
+            <from-outcome>false</from-outcome>
+            <to-view-id>/third.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-action>#{secondPage.navigate}</from-action>
+            <from-outcome>true</from-outcome>
+            <to-view-id>/fourth.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+</faces-config>

@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:f="http://xmlns.jcp.org/jsf/core"
+	  xmlns:h="http://xmlns.jcp.org/jsf/html">
+<head>
+<title>JSF Examples</title>
+</head>
+<body>
+	<h:dataTable value="#{myDataBean1.countries}" var="c" border="1">
+		<h:column>
+			<f:facet name="header">
+				<h:outputText value="ID" />
+			</f:facet>
+			<h:outputText value="#{c.id}" />
+		</h:column>
+		<h:column>
+			<f:facet name="header">
+				<h:outputText value="Name" />
+			</f:facet>
+			<h:outputText value="#{c.name}" />
+		</h:column>
+		<h:column>
+			<f:facet name="header">
+				<h:outputText value="Population" />
+			</f:facet>
+			<h:outputText value="#{c.population}" />
+		</h:column>
+	</h:dataTable>
+</body>
+</html>
