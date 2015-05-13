@@ -21,5 +21,16 @@ List of applications:
 - jdbc-simple: Simple JDBC implementation using Oracle<br/>
 - spring-jdbc-simple: JDBC implementation with Spring<br/>
 - spring-jdbc-transaction: Spring's transaction mechanism with JDBC<br/>
+- jpa-elementcollection: Example of storing a collection of String, Integers and etc.<br/>
+- jpa-embeddable: @Embeddable example<br/>
+- jpa-many-to-many: M:N multiplicity example<br/>
+- jpa-many-to-one: M:1 multiplicity example<br/>
+- jpa-map: Example of storing maps<br/>
+- jpa-mappedsuperclass: @MappedSuperClass example<br/>
+- jpa-one-to-many-cascaded: 1:M multiplicity with cascade saving example<br/>
+- jpa-one-to-many-mappedby:1:M multiplicity with mapped by example<br/>
+- jpa-one-to-many-with-spring:1:M multiplicity with Spring integration example<br/>
+- jpa-one-to-many: 1:M multiplicity example<br/>
+- jpa-one-to-one: 1:1 multiplicity example<br/>
 
 more to come on hibernate, jdbc, jpa, jsf, primefaces
