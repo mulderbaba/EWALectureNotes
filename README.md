@@ -32,5 +32,16 @@ List of applications:
 - jpa-one-to-many-with-spring:1:M multiplicity with Spring integration example<br/>
 - jpa-one-to-many: 1:M multiplicity example<br/>
 - jpa-one-to-one: 1:1 multiplicity example<br/>
+- jsf-simple-xml: JSF app with faces-config.xml based bean configuration<br/>
+- jsf-simple-annotations: JSF app with annotation-based bean configuration<br/>
+- jsf-components: JSF app with that demoes all output,input, data JSF components<br/>
+- jsf-converter: JSF app with converter sample<br/>
+- jsf-navigation: JSF app with navigations sampled between pages<br/>
+- jsf-validator: JSF app with validator sample<br/>
+- jsf-ajax: JSF app with built-in AJAX demonstrated<br/>
+- jsf-ajax-event: JSF app with built-in AJAX demonstrated according to js events<br/>
+- jsf-passing-data: JSF app demonstrating passing data between pages<br/>
+- jsf-with-spring: JSF app integrated with Spring<br/>
+- jsf-templating: JSF app with page templating mechanism<br/>
 
 more to come on hibernate, jdbc, jpa, jsf, primefaces
