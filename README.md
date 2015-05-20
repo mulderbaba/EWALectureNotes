@@ -43,5 +43,5 @@ List of applications:
 - jsf-passing-data: JSF app demonstrating passing data between pages<br/>
 - jsf-with-spring: JSF app integrated with Spring<br/>
 - jsf-templating: JSF app with page templating mechanism<br/>
-
-more to come on hibernate, jdbc, jpa, jsf, primefaces
+- junit-basic: Basic example demonstrating jUnit testing<br/>
+- junit-spring: Basic example demonstrating integration testing with Spring<br/>
